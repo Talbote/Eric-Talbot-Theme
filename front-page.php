@@ -24,3 +24,22 @@
     <div class="clearfix"></div>
     <!--  SECTION SLIDER  FRONTPAGE close -->
 
+<!-- SECTION 1 IMG / TEXT  / WYZ  FRONTPAGE open -->
+<div id="content" class="no-padding">
+    <section id="section-about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-4">
+                    <img src="<?php the_field('accueil_section1_image') ?>" alt="about image" class="img-responsive">
+                </div>
+                <div class="col-md-8 col-sm-8">
+                    <div class="about-box">
+                        <h2 class="box-title"><?php the_field('accueil_section1_text') ?></h2>
+                        <div class="tiny-border"></div>
+                        <p><?php the_field('accueil_section1_wys') ?></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SECTION 1 IMG / TEXT  / WYZ  FRONTPAGE close -->
