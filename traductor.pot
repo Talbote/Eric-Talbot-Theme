@@ -1,0 +1,82 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-04 15:27+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: front-page.php:59
+msgid "Derniers articles"
+msgstr ""
+
+#: front-page.php:61
+msgid ""
+"Pellentesque gravida diam orci, vitae venenatis est eleifend sed. Proin non "
+"pretium\n"
+"                                    turpis"
+msgstr ""
+
+#: header.php:85
+msgid "0112-826-2789"
+msgstr ""
+
+#: footer.php:25
+msgid "Catégories"
+msgstr ""
+
+#: footer.php:44
+msgid "contact"
+msgstr ""
+
+#: footer.php:46
+msgid "Address: 379 5th Ave  New York, NYC 10018, United States"
+msgstr ""
+
+#: footer.php:47
+msgid "Phone: +(112) 345 6879"
+msgstr ""
+
+#: footer.php:48
+msgid "Fax: +(112) 345 8796"
+msgstr ""
+
+#: footer.php:49
+msgid "Email: contact@compact.com"
+msgstr ""
+
+#: footer.php:56
+msgid "Newsletter"
+msgstr ""
+
+#: footer.php:59
+msgid "Stay informed about our news and events?"
+msgstr ""
+
+#: footer.php:79
+msgid "Copyright &copy; 2016 Designed by AuThemes. All rights reserved."
+msgstr ""
+
+#. Name of the theme
+msgid "Eric Talbot - Thème"
+msgstr ""
+
+#. Description of the theme
+msgid "exam"
+msgstr ""
+
+#. Author of the theme
+msgid "T.Eric"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://minimir.isl.be/talbote/cms/projet-1/"
+msgstr ""
