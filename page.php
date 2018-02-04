@@ -55,5 +55,36 @@
         </section>
         <!-- SECTION 2 REPEATER TITRE / TEXTE APROPOS close -->
 
+        <!-- SECTION 3  ACF TITRE  TEXTE / REPEATER  APROPOS open  -->
+        <section id="section-team" class="bg-grey">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="text-center">
+                            <h2><?php the_field('apropos_section3_text') ?></h2>
+                            <div class="tiny-border"></div>
+                        </div>
+                    </div>
+                    <?php while (have_rows('apropos_section3_repeater')):the_row(); ?>
+                        <div class="col-md-3">
+                            <div class="team-box">
+                                <div class="team-inner">
+                                    <img src="<?php the_sub_field('apropos_section3_repeater_image') ?>" alt="" class="img-circle">
+                                    <div class="mask"></div>
+                                </div>
+                                <h6><?php the_sub_field('apropos_section3_repeater_text_function') ?></h6>
+                                <div class="subtext"><?php the_sub_field('apropos_repeater_section3_text') ?></div>
+                            </div>
+                        </div>
+                    <?php endwhile; ?>
+
+                </div>
+            </div>
+        </section>
+    </div>
+<!-- SECTION 3  ACF TITRE  TEXTE / REPEATER  APROPOS close  -->
+
+<?php get_footer(); ?>
+
 
 
