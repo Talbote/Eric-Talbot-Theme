@@ -18,3 +18,15 @@
     </section>
     <!-- SECTION 1 ARTICLE  close -->
 
+<!-- SECTION 2 ACF IMAGE  begin -->
+<div id="content">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9">
+                <div class="blog-single">
+                    <!-- post begin -->
+                    <article>
+                        <div class="post-media">
+                            <img src="<?php the_field('article_section2_acf_image') ?>" class="img-responsive">
+                        </div>
+                        <!-- SECTION 2 ACF IMAGE  close -->
