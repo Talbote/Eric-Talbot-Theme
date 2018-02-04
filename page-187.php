@@ -43,3 +43,13 @@ while( have_posts()):the_post(); ?>
                     <!-- section 1 TITRE / WYZ  CONTACT close -->
 
 
+                    <!-- section 2  FORM  CONTACT begin -->
+                    <div class="wpcf7-form">
+                        <?php $contact = the_field('contact_section2_form_wys'); ?>
+                        <div/>
+                    </div>
+                </div>
+            </div>
+
+    </section>
+    <!-- section 2 FORM CONTACT.php  close -->
