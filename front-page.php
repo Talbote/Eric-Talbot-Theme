@@ -101,3 +101,33 @@
         </div>
     </section>
     <!-- SECTION 2  L4ST ARTICLE  FRONTPAGE close -->
+
+    <!-- SECTION 3  REPEATER  FRONTPAGE begin -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <?php while (have_rows('accueil_section3_repeater')):the_row(); ?>
+                    <div class="col-md-4">
+                        <div class="service-box service-style2">
+                            <img src="<?php the_sub_field('accueil_section3_repeater_icon') ?>" alt="" class="img-responsive">
+                            <div class="service-content">
+                                <h3><?php the_sub_field('accueil_section3_repeater_title') ?></h3>
+                                <p><?php the_sub_field('accueil_section3_repeater_wys') ?></p>
+                            </div>
+                        </div>
+                    </div>
+                <?php endwhile; ?>
+
+
+
+            </div>
+        </div>
+    </section>
+
+
+</div>
+    <!-- SECTION 3  REPEATER  FRONTPAGE close -->
+
+    </div>
+    <!-- content close -->
+<?php get_footer(); ?>
