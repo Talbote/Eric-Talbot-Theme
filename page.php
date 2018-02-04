@@ -37,5 +37,23 @@
         </section>
         <!-- SECTION 1 TITRE WYZ IMG APROPOS + VIDEO close -->
 
+        <!-- SECTION 2 REPEATER TITRE / TEXTE APROPOS open -->
+        <section id="section-about" class="margin-top-80">
+            <div class="container">
+                <div class="row">
+                    <?php while (have_rows('apropos_section2_acf_repeater')):the_row() ?>
+                        <div class="col-md-4">
+
+                            <h5><?php the_sub_field('apropos_section2_acf_repeater_title') ?></h5>
+                            <p><?php the_sub_field('apropos_section2_acf_repeater_text') ?></p>
+                        </div>
+                    <?php endwhile; ?>
+
+
+                </div>
+            </div>
+        </section>
+        <!-- SECTION 2 REPEATER TITRE / TEXTE APROPOS close -->
+
 
 
